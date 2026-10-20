@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
 import 'screens/login_screen.dart';
+import 'screens/report_form_screen.dart';
 
 class SkinaiApp extends StatelessWidget {
   const SkinaiApp({super.key});
@@ -13,6 +14,7 @@ class SkinaiApp extends StatelessWidget {
         routes: {
           '/': (_) => const HomeScreen(),
           '/login': (_) => const LoginScreen(),
+          '/report': (_) => const ReportFormScreen(),
         },
       );
 }
